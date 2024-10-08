@@ -1,0 +1,50 @@
+/* WhyChooseUsSection.module.css */
+
+.section {
+  padding: 4rem 0;
+}
+
+.container {
+  max-width: 1280px;
+  margin: 0 auto;
+  padding: 0 1rem;
+  background-color: white;
+}
+
+.heading {
+  font-size: 1.5rem;
+  font-weight: bold;
+  color: #111827; /* text-gray-900 */
+  margin-bottom: 2rem;
+  text-align: center;
+}
+
+.grid {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
+  gap: 2rem;
+}
+
+.item {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  text-align: center;
+}
+
+.icon {
+  height: 3rem;
+  width: 3rem;
+  color: #4f46e5; /* Indigo-700 */
+  margin-bottom: 1rem;
+}
+
+.title {
+  font-size: 1.25rem; /* text-xl */
+  font-weight: 600;
+  margin-bottom: 0.5rem;
+}
+
+.description {
+  color: #6b7280; /* text-gray-500 */
+}
