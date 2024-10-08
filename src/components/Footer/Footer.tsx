@@ -6,7 +6,7 @@ export const Footer: React.FC<FooterProps> = () => (
     <div className={styles.container}>
       <div className={styles.grid}>
         <div>
-          <h4 className={styles.h4}>TerminalePro</h4>
+          <h4 className={styles.h4}>YelloApp</h4>
           <p>La plateforme de révision en ligne pour réussir votre bac</p>
         </div>
         <div>
@@ -59,7 +59,7 @@ export const Footer: React.FC<FooterProps> = () => (
         </div>
       </div>
       <div className={styles.bottom}>
-        <p>&copy; 2024 TerminalePro. Tous droits réservés.</p>
+        <p>&copy; 2024 YelloApp. Tous droits réservés.</p>
       </div>
     </div>
   </footer>

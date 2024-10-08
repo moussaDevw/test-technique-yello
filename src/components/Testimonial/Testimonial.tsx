@@ -1,27 +1,6 @@
-// TestimonialsSection.js
+import { testimonials } from "../../data/data";
 import styles from "./Testimonial.module.css";
 import { Star } from "lucide-react";
-
-const testimonials = [
-  {
-    name: "Sophie D.",
-    role: "Développeuse Full Stack",
-    comment:
-      "EduQuest m'a permis de passer de débutante à développeuse professionnelle en seulement 6 mois. Le contenu est incroyablement bien structuré et pertinent.",
-  },
-  {
-    name: "Thomas L.",
-    role: "Data Scientist",
-    comment:
-      "Les cours de data science sont à la pointe de la technologie. J'ai pu appliquer immédiatement ce que j'ai appris dans mon travail quotidien.",
-  },
-  {
-    name: "Emma R.",
-    role: "Ingénieure DevOps",
-    comment:
-      "La qualité des cours et des projets pratiques m'a vraiment impressionnée. EduQuest m'a donné les compétences dont j'avais besoin pour faire évoluer ma carrière.",
-  },
-];
 
 export const Testimonial = () => {
   return (

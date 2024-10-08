@@ -7,9 +7,7 @@ export const SearchSection = () => {
   return (
     <section className={styles.section}>
       <div className={styles.container}>
-        <h2 className={styles.heading}>
-          Réussissez votre bac avec TerminalePro
-        </h2>
+        <h2 className={styles.heading}>Réussissez votre bac avec YelloApp</h2>
         <p className={styles.subheading}>
           Des cours en ligne, des exercices interactifs et un soutien
           personnalisé pour exceller en terminale
@@ -21,9 +19,6 @@ export const SearchSection = () => {
               placeholder="Rechercher un cours ou une matière"
               className={styles.input}
             />
-            <div className={styles.iconContainer}>
-              <Search className={styles.icon} />
-            </div>
           </div>
           <Button variant="primary" className={styles.button}>
             Rechercher

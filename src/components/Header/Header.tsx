@@ -9,7 +9,7 @@ export const Header = () => {
       <div className={styles.headerContent}>
         <div className={styles.logoContainer}>
           <GraduationCap className={styles.icon} />
-          <h1 className={styles.logoText}>TerminalePro</h1>
+          <h1 className={styles.logoText}>YelloApp</h1>
         </div>
         <nav className={styles.nav}>
           <a href="#" className={styles.navLink}>

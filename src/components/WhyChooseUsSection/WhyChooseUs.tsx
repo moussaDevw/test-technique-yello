@@ -5,7 +5,7 @@ export const WhyChooseUs = () => {
   return (
     <section className={styles.section}>
       <div className={styles.container}>
-        <h3 className={styles.heading}>Pourquoi choisir TerminalePro ?</h3>
+        <h3 className={styles.heading}>Pourquoi choisir YelloApp ?</h3>
         <div className={styles.grid}>
           <div className={styles.item}>
             <Book className={styles.icon} />
